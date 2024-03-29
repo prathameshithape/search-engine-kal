@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6ecff; /* Set the background color */
+            background-image: url("C:/Users/Ronak Ithape/OneDrive/문서/SEMESTER-2/Web Techno/a.jpeg"); /* Set the background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Don't repeat the image */
+            background-attachment: fixed; /* Fixed position */
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color:    #e6e6e6;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-top: 10px;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .search-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            background-color:    #006080;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-btn:hover {
+            background-color: #595959;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image within the body -->
+    <div class="container">
+        <img src="C:\Users\Ronak Ithape\OneDrive\문서\SEMESTER-2\Web Techno\k logo.jpg" alt="Prajwal Logo" width="80">
+    
+        <h1>Browser</h1>
+        <form action="https://www.google.com/search" method="get" target="_blank">
+            <input type="text" class="search-box" name="q" placeholder="Search the web...">
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+    </div>
+</body>
+</html>
